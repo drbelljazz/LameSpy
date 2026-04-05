@@ -13,43 +13,149 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Games">
+      <UniqueIdentifier>{f089826e-0b21-47d6-8a60-c70e5a9b1a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Old Source">
+      <UniqueIdentifier>{a1843686-b86a-4c89-811e-844e82ad8568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Old Source\.CPP">
+      <UniqueIdentifier>{8f791e8b-a78e-4676-8b65-1f9219968f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Old Source\.H">
+      <UniqueIdentifier>{2545af3c-5c37-457f-b7dd-5e2bac66993b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{5fa39af4-e089-41fd-9884-961a8cadeaac}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h">
+    <ClInclude Include="src\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="targetver.h">
+    <ClInclude Include="src\resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Resource.h">
+    <ClInclude Include="src\oldsrc\LameBar.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameChat.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameCon.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameCore.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameFiles.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameGames.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameLog.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameNet.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameQ2.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameQ3.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameQW.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameTemp.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameUG.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameUI.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameUT.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\oldsrc\LameWeb.h">
+      <Filter>Old Source\.H</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameGameUE.h">
+      <Filter>Source Files\Games</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="LameSpy.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="src\LameDialogs.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="WinMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LameSpy.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LameFileIO.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LameNet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WinLame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LameNew.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="LameOld.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="src\LameFilters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameFonts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameHomeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameListTrickle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameListViews.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameNav.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameStatusBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameToolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameTreeTag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameUiMessages.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameUiSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LameServerListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LameSpy.rc">
@@ -69,5 +175,382 @@
     <Image Include="refresh_pc.bmp">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico100.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico111.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico128.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico1024.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="ico1218.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Quake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="UT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="q2og.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="q3og.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="settings.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="q3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="q2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="qguy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="unreal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="q4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="unrealed.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="lamespy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\gamespy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\q3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\q2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\qguy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\unreal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\q4.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\unrealed.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\Quake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\UT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\q2og.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\q3og.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Icons\DeusEx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\icons\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\refreshlist.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\startgame.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\settings.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\greenguy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\greenmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\joystick.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\pcmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\phone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\redmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\refreshglobe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\refreshlist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\refreshpc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\refreshtimer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\settings.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\spychat.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\spyglobe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\spyguys.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\spylist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\startgame.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\tree.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="gfx\Toolbar\BMP\lamespynu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="x64\Release\ui\ico\settings.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="x64\Release\ui\img\lameguy1_t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\icons\gamespy.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\q3.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\Quake.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\UT.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\q2og.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\unreal.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Icons\DeusEx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\greenguy.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\greenmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\redmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\phone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\pcmag.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\joystick.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\refreshlist.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\refreshglobe.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\Toolbar\BMP\lamespynu.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="resources\gfx\PNG\lameguy1_t.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="help_UG.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\LameNet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameBar.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameChat.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameCon.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameDlg.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameFiles.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameLists.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameLog.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameMain.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameNet.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameQ2.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameQ3.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameQW.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameSteam.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameTempUT.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameUG.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameUI.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameUT.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\oldsrc\LameWeb.cpp">
+      <Filter>Old Source\.CPP</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameGameUE.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameGameQ2.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameGameQ3.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameGameQW.cpp">
+      <Filter>Source Files\Games</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameDialogs.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameFilters.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameFonts.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameHomeView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameListTrickle.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameListViews.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameMenus.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameNav.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameServerListView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameSplitter.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameStatusBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameToolbar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameTree.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameUiMessages.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LameWeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\abort.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sound\alert.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sound\complete.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sound\launch.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="sound\welcome.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\sound\abort.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\sound\complete.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\sound\launch.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="resources\sound\welcome.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
   </ItemGroup>
 </Project>
