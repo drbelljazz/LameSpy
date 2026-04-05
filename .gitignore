@@ -51,3 +51,6 @@ CopilotSnapshots/
 
 # Avoid committing the repository metadata
 .git/resources/
+
+# Local-only assets
+/resources/
