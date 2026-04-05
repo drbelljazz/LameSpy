@@ -323,8 +323,8 @@ static int QW_QueryServer(const wchar_t* ip, int port, LameServer* outServer)
             t1 = GetTickCount();
             recvBuf[total] = '\0';
 
-            // Log the response
-            QW_LogResponse(narrowIP, port, recvBuf, total);
+            // Log the response (debug only)
+            //QW_LogResponse(narrowIP, port, recvBuf, total);
 
             outServer->ping = (int)(t1 - t0);
             QW_ParseServerInfo(recvBuf, total, outServer);

@@ -1,6 +1,6 @@
 #pragma once
 
-#define VER_PRODUCTVERSION      0,1,0,2
-#define VER_PRODUCTVERSION_STR  "0.1.0.2"
+#define VER_PRODUCTVERSION      0,1,0,3
+#define VER_PRODUCTVERSION_STR  "0.1.0.3"
 
 #define LAMESPY_VERSION         VER_PRODUCTVERSION_STR

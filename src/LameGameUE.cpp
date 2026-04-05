@@ -447,7 +447,8 @@ int UE_QueryMasterServer_JSON(GameId game, int masterIndex, const LameMasterAddr
             if (got <= 0)
                 break;
 
-            UE_LogMasterJsonResponse(game, masterIndex, masterAddr->address, port, path, body.data(), got);
+            // Log the response (debug only)
+            //UE_LogMasterJsonResponse(game, masterIndex, masterAddr->address, port, path, body.data(), got);
 
             Data_Lock();
             int added = UE_ParseMasterJsonPage(body.data(), got, master, game);
