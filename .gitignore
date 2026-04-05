@@ -50,4 +50,4 @@ packages/
 CopilotSnapshots/
 
 # Avoid committing the repository metadata
-.git/
+.git/resources/
